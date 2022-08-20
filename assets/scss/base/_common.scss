@@ -1,0 +1,17 @@
+*{outline: none !important;}
+@media all and (min-width:600px) {
+    *::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+    *::-webkit-scrollbar-track {
+        background: 0 0;
+        background:rgba($black, 0%);
+    }
+    *::-webkit-scrollbar-thumb {
+        background:rgba($primary, 80%);
+    }
+    *::-webkit-scrollbar-thumb:hover {
+        background:$primary;
+    }
+}
